@@ -1,4 +1,4 @@
-/* Version: A_01 - 08.01. 2023 - 13:26:19 */
+/* Version: A_01 - 09.01. 2023 - 21:13:43 */
 
 
 var imms = document.createElement("script");
@@ -22,7 +22,9 @@ document.querySelector("#regexDivId").insertAdjacentElement("afterend", div);
     
 //setTimeout(function(){
 console.log("call Impressionmedia push");
-Impressionmedia.events.push(function() {Impressionmedia.DisplayAcceptableAdIfAdblocked({"zoneid": 1406721,"containerid": "crt-1406721-ireferatycz","overrideZoneFloor": false,"callbacksuccess": function(){console.log("antiAdBlock callbacksuccess");;},"callIfNotAdBlocked":function(){console.log("antiAdBlock callIfNotAdBlocked")}, });});;
+Impressionmedia.events.push(function() {Impressionmedia.DisplayAcceptableAdIfAdblocked({"zoneid": 1406721,"containerid": "crt-1406721-ireferatycz","overrideZoneFloor": false,"callbacksuccess": function(){console.log("antiAdBlock callbacksuccess");
+        /* https://ireferaty.cz/test_hb_6_antiAdBlock_1.php */
+    ;},"callIfNotAdBlocked":function(){console.log("antiAdBlock callIfNotAdBlocked")}, });});;
 //}, 5000);
 
 
