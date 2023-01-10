@@ -1,4 +1,4 @@
-/* Version: A_01 - 10.01. 2023 - 17:18:32 */
+/* Version: A_01 - 10.01. 2023 - 17:24:34 */
 
 
 var imms = document.createElement("script");
@@ -51,7 +51,7 @@ Impressionmedia.events.push(function() {Impressionmedia.DisplayAcceptableAdIfAdb
 
 var div = document.createElement("div");
 div.setAttribute("id", "crt-1403237-vosveteitsk");
-div.setAttribute("style", "height:480px; width:300px; margin:auto;");
+div.setAttribute("style", "height:300px; width:300px; margin:auto;");
 document.querySelector("#the-post").insertAdjacentElement("afterend", div);
     
 //setTimeout(function(){
@@ -64,7 +64,10 @@ Impressionmedia.events.push(function() {Impressionmedia.DisplayAcceptableAdIfAdb
         
         
         
+        
+        
                 
+            
             
             
             
