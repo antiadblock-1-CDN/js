@@ -1,4 +1,4 @@
-/* Version: A_01 - 08.01. 2023 - 23:55:29 */
+/* Version: A_01 - 10.01. 2023 - 17:10:57 */
 
 
 var imms = document.createElement("script");
@@ -16,15 +16,18 @@ window.Impressionmedia.events = window.Impressionmedia.events || [];
 //setTimeout(function(){
 
 var div = document.createElement("div");
-div.setAttribute("id", "crt-1406723-vosveteitsk");
+div.setAttribute("id", "crt-1406721-vosveteitsk");
 div.setAttribute("style", "height:210px; width:920px; margin:auto;");
 document.querySelector("#adinserter-1").insertAdjacentElement("afterend", div);
     
 //setTimeout(function(){
 console.log("call Impressionmedia push");
-Impressionmedia.events.push(function() {Impressionmedia.DisplayAcceptableAdIfAdblocked({"zoneid": 1406723,"containerid": "crt-1406723-vosveteitsk","overrideZoneFloor": false,"callbacksuccess": function(){console.log("antiAdBlock callbacksuccess");
+Impressionmedia.events.push(function() {Impressionmedia.DisplayAcceptableAdIfAdblocked({"zoneid": 1406721,"containerid": "crt-1406721-vosveteitsk","overrideZoneFloor": false,"callbacksuccess": function(){console.log("antiAdBlock callbacksuccess");
+        
+        
         
                 
+            
     ;},"callIfNotAdBlocked":function(){console.log("antiAdBlock callIfNotAdBlocked")}, });});;
 //}, 5000);
 
@@ -49,13 +52,16 @@ Impressionmedia.events.push(function() {Impressionmedia.DisplayAcceptableAdIfAdb
 var div = document.createElement("div");
 div.setAttribute("id", "crt-1406728-vosveteitsk");
 div.setAttribute("style", "height:480px; width:300px; margin:auto;");
-document.querySelector(".vit-eshop-box").insertAdjacentElement("beforebegin", div);
+document.querySelector("#m_vosveteit_clanok_topbox3").insertAdjacentElement("beforebegin", div);
     
 //setTimeout(function(){
 console.log("call Impressionmedia push");
 Impressionmedia.events.push(function() {Impressionmedia.DisplayAcceptableAdIfAdblocked({"zoneid": 1406728,"containerid": "crt-1406728-vosveteitsk","overrideZoneFloor": false,"callbacksuccess": function(){console.log("antiAdBlock callbacksuccess");
         
+        
+        
                 
+            
     ;},"callIfNotAdBlocked":function(){console.log("antiAdBlock callIfNotAdBlocked")}, });});;
 //}, 5000);
 
