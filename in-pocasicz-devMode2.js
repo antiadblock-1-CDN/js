@@ -1,4 +1,4 @@
-/* Version: A_01 - 10.01. 2023 - 01:49:56 */
+/* Version: A_01 - 10.01. 2023 - 01:52:13 */
 
 
 var imms = document.createElement("script");
@@ -43,7 +43,10 @@ document.querySelector(".leaderboard-200").insertAdjacentElement("beforebegin", 
 //setTimeout(function(){
 console.log("call Impressionmedia push");
 Impressionmedia.events.push(function() {Impressionmedia.DisplayAcceptableAdIfAdblocked({"zoneid": 1406727,"containerid": "crt-1406727-in-pocasicz","overrideZoneFloor": false,"callbacksuccess": function(){console.log("antiAdBlock callbacksuccess");
-        document.querySelector('.leaderboard-200').style.height = "210px";
+        
+        
+        document.querySelector('#crt-1406727-in-pocasicz').style.height = "210px";
+            
     ;},"callIfNotAdBlocked":function(){console.log("antiAdBlock callIfNotAdBlocked")}, });});;
 //}, 5000);
 
