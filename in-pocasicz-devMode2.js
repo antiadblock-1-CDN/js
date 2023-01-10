@@ -1,4 +1,4 @@
-/* Version: A_01 - 10.01. 2023 - 01:05:10 */
+/* Version: A_01 - 10.01. 2023 - 01:08:07 */
 
 
 var imms = document.createElement("script");
@@ -37,8 +37,8 @@ Impressionmedia.events.push(function() {Impressionmedia.DisplayAcceptableAdIfAdb
 
 var div = document.createElement("div");
 div.setAttribute("id", "crt-1406727-in-pocasicz");
-div.setAttribute("style", "height:210px; width:920px; margin:auto;");
-document.querySelector(".leaderboard-200").insertAdjacentElement("afterbegin", div);
+div.setAttribute("style", "height:auto; width:920px; margin:auto;");
+document.querySelector(".leaderboard-200").insertAdjacentElement("beforebegin", div);
     
 //setTimeout(function(){
 console.log("call Impressionmedia push");
@@ -50,7 +50,10 @@ Impressionmedia.events.push(function() {Impressionmedia.DisplayAcceptableAdIfAdb
         
         
         
+        
+        
                 
+            
             
             
             
