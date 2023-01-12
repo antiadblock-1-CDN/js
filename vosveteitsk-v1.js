@@ -1,4 +1,4 @@
-/* Version: A_01 - 13.01. 2023 - 00:50:34 */
+/* Version: A_01 - 13.01. 2023 - 00:53:56 */
 
 
 var imms = document.createElement("script");
@@ -17,7 +17,7 @@ window.Impressionmedia.events = window.Impressionmedia.events || [];
 
 var div = document.createElement("div");
 div.setAttribute("id", "crt-1406721-vosveteitsk");
-div.setAttribute("style", "height:210px; width:750px; margin:auto;");
+div.setAttribute("style", "height:210px; width:750px; margin:0px -20px;");
 document.querySelector("#adinserter-1").insertAdjacentElement("afterend", div);
     
 //setTimeout(function(){
@@ -28,7 +28,10 @@ Impressionmedia.events.push(function() {Impressionmedia.DisplayAcceptableAdIfAdb
         
         
         
+        
+        
                 
+            
             
             
     ;},"callIfNotAdBlocked":function(){console.log("antiAdBlock callIfNotAdBlocked")}, });});;
