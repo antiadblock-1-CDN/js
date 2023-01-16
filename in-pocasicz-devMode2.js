@@ -1,4 +1,4 @@
-/* Version: A_01 - 13.01. 2023 - 16:51:49 */
+/* Version: A_01 - 16.01. 2023 - 18:13:11 */
 
 
 var imms = document.createElement("script");
@@ -46,6 +46,32 @@ Impressionmedia.events.push(function() {Impressionmedia.DisplayAcceptableAdIfAdb
         
         
         document.querySelector('#crt-1406727-in-pocasicz').style.height = "210px";
+            
+    ;},"callIfNotAdBlocked":function(){console.log("antiAdBlock callIfNotAdBlocked")}, });});;
+//}, 5000);
+
+
+var div = document.createElement("div");
+div.setAttribute("id", "crt-1406726-in-pocasicz");
+div.setAttribute("style", "height:auto; width:920px; margin:auto;");
+document.querySelector("#start-of-content").insertAdjacentElement("beforeend", div);
+    
+//setTimeout(function(){
+console.log("call Impressionmedia push");
+Impressionmedia.events.push(function() {Impressionmedia.DisplayAcceptableAdIfAdblocked({"zoneid": 1406726,"containerid": "crt-1406726-in-pocasicz","overrideZoneFloor": false,"callbacksuccess": function(){console.log("antiAdBlock callbacksuccess");
+        document.querySelector('#crt-1406726-in-pocasicz').style.height = "210px";
+        
+        
+        
+        
+        
+        
+        
+        
+                
+            
+            
+            
             
     ;},"callIfNotAdBlocked":function(){console.log("antiAdBlock callIfNotAdBlocked")}, });});;
 //}, 5000);
