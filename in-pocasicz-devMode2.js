@@ -1,4 +1,4 @@
-/* Version: A_01 - 17.01. 2023 - 09:33:30 */
+/* Version: A_01 - 17.01. 2023 - 09:44:45 */
 
 
 var imms = document.createElement("script");
@@ -36,22 +36,6 @@ Impressionmedia.events.push(function() {Impressionmedia.DisplayAcceptableAdIfAdb
 
 
 var div = document.createElement("div");
-div.setAttribute("id", "crt-1406727-in-pocasicz");
-div.setAttribute("style", "height:auto; width:920px; margin:auto;");
-document.querySelector(".leaderboard-200").insertAdjacentElement("beforebegin", div);
-    
-//setTimeout(function(){
-console.log("call Impressionmedia push");
-Impressionmedia.events.push(function() {Impressionmedia.DisplayAcceptableAdIfAdblocked({"zoneid": 1406727,"containerid": "crt-1406727-in-pocasicz","overrideZoneFloor": false,"callbacksuccess": function(){console.log("antiAdBlock callbacksuccess");
-        
-        
-        document.querySelector('#crt-1406727-in-pocasicz').style.height = "210px";
-            
-    ;},"callIfNotAdBlocked":function(){console.log("antiAdBlock callIfNotAdBlocked")}, });});;
-//}, 5000);
-
-
-var div = document.createElement("div");
 div.setAttribute("id", "crt-1406726-in-pocasicz");
 div.setAttribute("style", "height:auto; width:970px; margin:auto;");
 document.querySelector("#start-of-content").insertAdjacentElement("beforeend", div);
@@ -68,6 +52,31 @@ Impressionmedia.events.push(function() {Impressionmedia.DisplayAcceptableAdIfAdb
         
         
         document.querySelector('#crt-1406726-in-pocasicz').style.height = "260px";setTimeout(function(){ document.querySelector('#start-of-content .responsive_250_90_ad').style.display= "none";}, 1000);
+    ;},"callIfNotAdBlocked":function(){console.log("antiAdBlock callIfNotAdBlocked")}, });});;
+//}, 5000);
+
+
+var div = document.createElement("div");
+div.setAttribute("id", "crt-1406727-in-pocasicz");
+div.setAttribute("style", "height:auto; width:970px; margin:auto;");
+document.querySelector("#start-of-content").insertAdjacentElement("beforebegin", div);
+    
+//setTimeout(function(){
+console.log("call Impressionmedia push");
+Impressionmedia.events.push(function() {Impressionmedia.DisplayAcceptableAdIfAdblocked({"zoneid": 1406727,"containerid": "crt-1406727-in-pocasicz","overrideZoneFloor": false,"callbacksuccess": function(){console.log("antiAdBlock callbacksuccess");
+        
+        
+        
+        
+        
+        
+        
+        
+        document.querySelector('#crt-1406727-in-pocasicz').style.height = "210px";
+            
+            
+            
+            
     ;},"callIfNotAdBlocked":function(){console.log("antiAdBlock callIfNotAdBlocked")}, });});;
 //}, 5000);
 
