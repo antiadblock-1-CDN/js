@@ -1,4 +1,4 @@
-/* Version: A_01 - 17.01. 2023 - 09:29:17 */
+/* Version: A_01 - 17.01. 2023 - 09:33:30 */
 
 
 var imms = document.createElement("script");
@@ -65,7 +65,9 @@ Impressionmedia.events.push(function() {Impressionmedia.DisplayAcceptableAdIfAdb
         
         
         
-        document.querySelector('#crt-1406726-in-pocasicz').style.height = "260px"; document.querySelector('#start-of-content .responsive_250_90_ad').style.display= "none";
+        
+        
+        document.querySelector('#crt-1406726-in-pocasicz').style.height = "260px";setTimeout(function(){ document.querySelector('#start-of-content .responsive_250_90_ad').style.display= "none";}, 1000);
     ;},"callIfNotAdBlocked":function(){console.log("antiAdBlock callIfNotAdBlocked")}, });});;
 //}, 5000);
 
