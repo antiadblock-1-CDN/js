@@ -1,4 +1,4 @@
-/* Version: A_01 - 17.01. 2023 - 09:44:45 */
+/* Version: A_01 - 17.01. 2023 - 09:45:30 */
 
 
 var imms = document.createElement("script");
@@ -72,7 +72,10 @@ Impressionmedia.events.push(function() {Impressionmedia.DisplayAcceptableAdIfAdb
         
         
         
-        document.querySelector('#crt-1406727-in-pocasicz').style.height = "210px";
+        
+        
+        document.querySelector('#crt-1406727-in-pocasicz').style.height = "220px";
+            
             
             
             
