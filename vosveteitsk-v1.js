@@ -1,4 +1,4 @@
-/* Version: A_01 - 18.01. 2023 - 10:05:21 */
+/* Version: A_01 - 18.01. 2023 - 10:20:59 */
 
 
 var imms = document.createElement("script");
@@ -15,6 +15,8 @@ window.Impressionmedia.events = window.Impressionmedia.events || [];
 
 //setTimeout(function(){
 
+var selection = document.querySelector("afterend") !== null;
+if (selection) {
 var div = document.createElement("div");
 div.setAttribute("id", "crt-1406721-vosveteitsk");
 div.setAttribute("style", "height:210px; width:760px; margin:0px 0px 0px -20px;");
@@ -42,8 +44,10 @@ Impressionmedia.events.push(function() {Impressionmedia.DisplayAcceptableAdIfAdb
             
     ;},"callIfNotAdBlocked":function(){console.log("antiAdBlock callIfNotAdBlocked")}, });});;
 //}, 5000);
+}
 
-
+var selection = document.querySelector("beforebegin") !== null;
+if (selection) {
 var div = document.createElement("div");
 div.setAttribute("id", "crt-1406726-vosveteitsk");
 div.setAttribute("style", "height:250px; width:980px; margin:10px auto;");
@@ -98,8 +102,10 @@ Impressionmedia.events.push(function() {Impressionmedia.DisplayAcceptableAdIfAdb
             
     ;},"callIfNotAdBlocked":function(){console.log("antiAdBlock callIfNotAdBlocked")}, });});;
 //}, 5000);
+}
 
-
+var selection = document.querySelector("beforeend") !== null;
+if (selection) {
 var div = document.createElement("div");
 div.setAttribute("id", "crt-1403239-vosveteitsk");
 div.setAttribute("style", "height:600px; width:310px; margin:10px auto;");
@@ -154,8 +160,10 @@ Impressionmedia.events.push(function() {Impressionmedia.DisplayAcceptableAdIfAdb
             
     ;},"callIfNotAdBlocked":function(){console.log("antiAdBlock callIfNotAdBlocked")}, });});;
 //}, 5000);
+}
 
-
+var selection = document.querySelector("beforebegin") !== null;
+if (selection) {
 var div = document.createElement("div");
 div.setAttribute("id", "crt-1406728-vosveteitsk");
 div.setAttribute("style", "height:300px; width:490px; margin:10px 0px;");
@@ -222,7 +230,7 @@ Impressionmedia.events.push(function() {Impressionmedia.DisplayAcceptableAdIfAdb
             
     ;},"callIfNotAdBlocked":function(){console.log("antiAdBlock callIfNotAdBlocked")}, });});;
 //}, 5000);
-
+}
 
 //}, 100);
 
