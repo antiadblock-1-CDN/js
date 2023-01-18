@@ -1,4 +1,4 @@
-/* Version: A_01 - 18.01. 2023 - 09:48:01 */
+/* Version: A_01 - 18.01. 2023 - 09:50:15 */
 
 
 var imms = document.createElement("script");
@@ -158,7 +158,7 @@ Impressionmedia.events.push(function() {Impressionmedia.DisplayAcceptableAdIfAdb
 
 var div = document.createElement("div");
 div.setAttribute("id", "crt-1406728-vosveteitsk");
-div.setAttribute("style", "height:300px; width:490px; margin:10px auto;");
+div.setAttribute("style", "height:300px; width:490px; margin:10px 0px;");
 document.querySelector(".yarpp-related-website").insertAdjacentElement("beforebegin", div);
     
 //setTimeout(function(){
@@ -197,7 +197,10 @@ Impressionmedia.events.push(function() {Impressionmedia.DisplayAcceptableAdIfAdb
         
         
         
+        
+        
                 
+            
             
             
             
