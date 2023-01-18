@@ -1,4 +1,4 @@
-/* Version: A_01 - 18.01. 2023 - 10:20:59 */
+/* Version: A_01 - 18.01. 2023 - 10:28:35 */
 
 
 var imms = document.createElement("script");
@@ -15,7 +15,7 @@ window.Impressionmedia.events = window.Impressionmedia.events || [];
 
 //setTimeout(function(){
 
-var selection = document.querySelector("afterend") !== null;
+var selection = document.querySelector("#adinserter-1") !== null;
 if (selection) {
 var div = document.createElement("div");
 div.setAttribute("id", "crt-1406721-vosveteitsk");
@@ -44,9 +44,9 @@ Impressionmedia.events.push(function() {Impressionmedia.DisplayAcceptableAdIfAdb
             
     ;},"callIfNotAdBlocked":function(){console.log("antiAdBlock callIfNotAdBlocked")}, });});;
 //}, 5000);
-}
+//}
 
-var selection = document.querySelector("beforebegin") !== null;
+var selection = document.querySelector("#footer") !== null;
 if (selection) {
 var div = document.createElement("div");
 div.setAttribute("id", "crt-1406726-vosveteitsk");
@@ -102,9 +102,9 @@ Impressionmedia.events.push(function() {Impressionmedia.DisplayAcceptableAdIfAdb
             
     ;},"callIfNotAdBlocked":function(){console.log("antiAdBlock callIfNotAdBlocked")}, });});;
 //}, 5000);
-}
+//}
 
-var selection = document.querySelector("beforeend") !== null;
+var selection = document.querySelector(".sidebar") !== null;
 if (selection) {
 var div = document.createElement("div");
 div.setAttribute("id", "crt-1403239-vosveteitsk");
@@ -160,9 +160,9 @@ Impressionmedia.events.push(function() {Impressionmedia.DisplayAcceptableAdIfAdb
             
     ;},"callIfNotAdBlocked":function(){console.log("antiAdBlock callIfNotAdBlocked")}, });});;
 //}, 5000);
-}
+//}
 
-var selection = document.querySelector("beforebegin") !== null;
+var selection = document.querySelector(".yarpp-related-website") !== null;
 if (selection) {
 var div = document.createElement("div");
 div.setAttribute("id", "crt-1406728-vosveteitsk");
@@ -230,7 +230,7 @@ Impressionmedia.events.push(function() {Impressionmedia.DisplayAcceptableAdIfAdb
             
     ;},"callIfNotAdBlocked":function(){console.log("antiAdBlock callIfNotAdBlocked")}, });});;
 //}, 5000);
-}
+//}
 
 //}, 100);
 
