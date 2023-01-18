@@ -1,4 +1,4 @@
-/* Version: A_01 - 18.01. 2023 - 09:32:59 */
+/* Version: A_01 - 18.01. 2023 - 09:34:25 */
 
 
 var imms = document.createElement("script");
@@ -17,7 +17,7 @@ window.Impressionmedia.events = window.Impressionmedia.events || [];
 
 var div = document.createElement("div");
 div.setAttribute("id", "crt-1406721-vosveteitsk");
-div.setAttribute("style", "height:210px; width:750px; margin:0px -20px;");
+div.setAttribute("style", "height:210px; width:760px; margin:0px 0px -20px 0px;");
 document.querySelector("#adinserter-1").insertAdjacentElement("afterend", div);
     
 //setTimeout(function(){
@@ -30,7 +30,10 @@ Impressionmedia.events.push(function() {Impressionmedia.DisplayAcceptableAdIfAdb
         
         
         
+        
+        
                 
+            
             
             
             
@@ -40,7 +43,7 @@ Impressionmedia.events.push(function() {Impressionmedia.DisplayAcceptableAdIfAdb
 
 var div = document.createElement("div");
 div.setAttribute("id", "crt-1406726-vosveteitsk");
-div.setAttribute("style", "height:250px; width:970px; margin:10px auto;");
+div.setAttribute("style", "height:250px; width:980px; margin:10px auto;");
 document.querySelector("#footer").insertAdjacentElement("beforebegin", div);
     
 //setTimeout(function(){
@@ -73,7 +76,10 @@ Impressionmedia.events.push(function() {Impressionmedia.DisplayAcceptableAdIfAdb
         
         
         
+        
+        
                 
+            
             
             
             
