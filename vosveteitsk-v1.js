@@ -1,4 +1,4 @@
-/* Version: A_01 - 18.01. 2023 - 09:40:46 */
+/* Version: A_01 - 18.01. 2023 - 09:48:01 */
 
 
 var imms = document.createElement("script");
@@ -138,6 +138,68 @@ Impressionmedia.events.push(function() {Impressionmedia.DisplayAcceptableAdIfAdb
         
         
                 
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+    ;},"callIfNotAdBlocked":function(){console.log("antiAdBlock callIfNotAdBlocked")}, });});;
+//}, 5000);
+
+
+var div = document.createElement("div");
+div.setAttribute("id", "crt-1406728-vosveteitsk");
+div.setAttribute("style", "height:300px; width:490px; margin:10px auto;");
+document.querySelector(".yarpp-related-website").insertAdjacentElement("beforebegin", div);
+    
+//setTimeout(function(){
+console.log("call Impressionmedia push");
+Impressionmedia.events.push(function() {Impressionmedia.DisplayAcceptableAdIfAdblocked({"zoneid": 1406728,"containerid": "crt-1406728-vosveteitsk","overrideZoneFloor": false,"callbacksuccess": function(){console.log("antiAdBlock callbacksuccess");
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+                
+            
+            
             
             
             
