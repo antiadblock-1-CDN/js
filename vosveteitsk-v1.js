@@ -1,4 +1,4 @@
-/* Version: A_01 - 18.01. 2023 - 09:50:15 */
+/* Version: A_01 - 18.01. 2023 - 10:05:21 */
 
 
 var imms = document.createElement("script");
@@ -164,6 +164,8 @@ document.querySelector(".yarpp-related-website").insertAdjacentElement("beforebe
 //setTimeout(function(){
 console.log("call Impressionmedia push");
 Impressionmedia.events.push(function() {Impressionmedia.DisplayAcceptableAdIfAdblocked({"zoneid": 1406728,"containerid": "crt-1406728-vosveteitsk","overrideZoneFloor": false,"callbacksuccess": function(){console.log("antiAdBlock callbacksuccess");
+        setTimeout(function(){ document.querySelector('#the-post .adsbygoogle').style.display= "none";}, 1000);
+        
         
         
         
@@ -200,6 +202,7 @@ Impressionmedia.events.push(function() {Impressionmedia.DisplayAcceptableAdIfAdb
         
         
                 
+            
             
             
             
