@@ -1,4 +1,4 @@
-/* Version: A_01 - 17.01. 2023 - 09:45:30 */
+/* Version: A_01 - 18.01. 2023 - 14:39:58 */
 
 
 var imms = document.createElement("script");
@@ -15,6 +15,8 @@ window.Impressionmedia.events = window.Impressionmedia.events || [];
 
 //setTimeout(function(){
 
+var selection = document.querySelector("#adform_square") !== null;
+if (selection) {
 var div = document.createElement("div");
 div.setAttribute("id", "crt-1403239-in-pocasicz");
 div.setAttribute("style", "height:600px;  width:300px;");
@@ -33,8 +35,10 @@ Impressionmedia.events.push(function() {Impressionmedia.DisplayAcceptableAdIfAdb
             
     ;},"callIfNotAdBlocked":function(){console.log("antiAdBlock callIfNotAdBlocked")}, });});;
 //}, 5000);
+}
 
-
+var selection = document.querySelector("#start-of-content") !== null;
+if (selection) {
 var div = document.createElement("div");
 div.setAttribute("id", "crt-1406726-in-pocasicz");
 div.setAttribute("style", "height:auto; width:970px; margin:auto;");
@@ -54,8 +58,10 @@ Impressionmedia.events.push(function() {Impressionmedia.DisplayAcceptableAdIfAdb
         document.querySelector('#crt-1406726-in-pocasicz').style.height = "260px";setTimeout(function(){ document.querySelector('#start-of-content .responsive_250_90_ad').style.display= "none";}, 1000);
     ;},"callIfNotAdBlocked":function(){console.log("antiAdBlock callIfNotAdBlocked")}, });});;
 //}, 5000);
+}
 
-
+var selection = document.querySelector("#start-of-content") !== null;
+if (selection) {
 var div = document.createElement("div");
 div.setAttribute("id", "crt-1406727-in-pocasicz");
 div.setAttribute("style", "height:auto; width:970px; margin:auto;");
@@ -82,7 +88,7 @@ Impressionmedia.events.push(function() {Impressionmedia.DisplayAcceptableAdIfAdb
             
     ;},"callIfNotAdBlocked":function(){console.log("antiAdBlock callIfNotAdBlocked")}, });});;
 //}, 5000);
-
+}
 
 //}, 100);
 
