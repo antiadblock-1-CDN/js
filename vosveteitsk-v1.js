@@ -1,4 +1,4 @@
-/* Version: A_01 - 18.01. 2023 - 10:29:12 */
+/* Version: A_01 - 18.01. 2023 - 10:29:49 */
 
 
 var imms = document.createElement("script");
@@ -44,7 +44,7 @@ Impressionmedia.events.push(function() {Impressionmedia.DisplayAcceptableAdIfAdb
             
     ;},"callIfNotAdBlocked":function(){console.log("antiAdBlock callIfNotAdBlocked")}, });});;
 //}, 5000);
-//}
+}
 
 var selection = document.querySelector("#footer") !== null;
 if (selection) {
@@ -102,7 +102,7 @@ Impressionmedia.events.push(function() {Impressionmedia.DisplayAcceptableAdIfAdb
             
     ;},"callIfNotAdBlocked":function(){console.log("antiAdBlock callIfNotAdBlocked")}, });});;
 //}, 5000);
-//}
+}
 
 var selection = document.querySelector(".sidebar") !== null;
 if (selection) {
@@ -160,7 +160,7 @@ Impressionmedia.events.push(function() {Impressionmedia.DisplayAcceptableAdIfAdb
             
     ;},"callIfNotAdBlocked":function(){console.log("antiAdBlock callIfNotAdBlocked")}, });});;
 //}, 5000);
-//}
+}
 
 var selection = document.querySelector(".yarpp-related-website") !== null;
 if (selection) {
@@ -230,7 +230,7 @@ Impressionmedia.events.push(function() {Impressionmedia.DisplayAcceptableAdIfAdb
             
     ;},"callIfNotAdBlocked":function(){console.log("antiAdBlock callIfNotAdBlocked")}, });});;
 //}, 5000);
-//}
+}
 
 //}, 100);
 
