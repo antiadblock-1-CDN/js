@@ -1,4 +1,4 @@
-/* Version: A_01 - 02.02. 2023 - 14:54:08 */
+/* Version: A_01 - 02.02. 2023 - 14:55:14 */
 
 
 var imms = document.createElement("script");
@@ -94,6 +94,63 @@ Impressionmedia.events.push(function() {Impressionmedia.DisplayAcceptableAdIfAdb
         
         
         document.querySelector('#crt-1406726-ireferatycz').style.height = "260px";
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+    ;},"callIfNotAdBlocked":function(){console.log("antiAdBlock callIfNotAdBlocked")}, });});;
+//}, 5000);
+}
+
+var selection = document.querySelector("#hlavicka") !== null;
+if (selection) {
+var div = document.createElement("div");
+div.setAttribute("id", "crt-1406726-ireferatycz");
+div.setAttribute("style", "height: 210px; width: 980px; margin: auto; text-align:center");
+document.querySelector("#hlavicka").insertAdjacentElement("beforeend", div);
+    
+//setTimeout(function(){
+console.log("call Impressionmedia push");
+Impressionmedia.events.push(function() {Impressionmedia.DisplayAcceptableAdIfAdblocked({"zoneid": 1406726,"containerid": "crt-1406726-ireferatycz","overrideZoneFloor": false,"callbacksuccess": function(){console.log("antiAdBlock callbacksuccess");
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        document.querySelector('#crt-1406726-ireferatycz').style.height = "260px";
+            
             
             
             
