@@ -1,4 +1,4 @@
-/* Version: A_01 - 02.02. 2023 - 09:31:20 */
+/* Version: A_01 - 02.02. 2023 - 09:43:41 */
 
 
 var imms = document.createElement("script");
@@ -49,7 +49,7 @@ var selection = document.querySelector("#obsahClanekMinHeight") !== null;
 if (selection) {
 var div = document.createElement("div");
 div.setAttribute("id", "crt-1406726-ireferatycz");
-div.setAttribute("style", "height: 210px; width: 930px; margin: auto;");
+div.setAttribute("style", "height: 210px; width: 980px; margin: auto;");
 document.querySelector("#obsahClanekMinHeight").insertAdjacentElement("afterend", div);
     
 //setTimeout(function(){
@@ -71,7 +71,13 @@ Impressionmedia.events.push(function() {Impressionmedia.DisplayAcceptableAdIfAdb
         
         
         
-        document.querySelector('#crt-1406726-ireferatycz').style.height = "220px";
+        
+        
+        
+        
+        document.querySelector('#crt-1406726-ireferatycz').style.height = "260px";
+            
+            
             
             
             
