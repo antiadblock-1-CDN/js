@@ -1,4 +1,4 @@
-/* Version: A_01 - 02.02. 2023 - 14:56:57 */
+/* Version: A_01 - 02.02. 2023 - 14:58:12 */
 
 
 var imms = document.createElement("script");
@@ -65,7 +65,7 @@ if (selection) {
 var div = document.createElement("div");
 div.setAttribute("id", "crt-1406726-ireferatycz");
 div.setAttribute("style", "height: 210px; width: 980px; margin: auto; text-align:center");
-document.querySelector("#hlavicka").insertAdjacentElement("beforeend", div);
+document.querySelector("#hlavicka").insertAdjacentElement("afterend", div);
     
 //setTimeout(function(){
 console.log("call Impressionmedia push");
@@ -98,7 +98,10 @@ Impressionmedia.events.push(function() {Impressionmedia.DisplayAcceptableAdIfAdb
         
         
         
+        
+        
         document.querySelector('#crt-1406726-ireferatycz').style.height = "260px";
+            
             
             
             
