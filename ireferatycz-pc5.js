@@ -1,4 +1,4 @@
-/* Version: A_01 - 02.02. 2023 - 14:58:12 */
+/* Version: A_01 - 02.02. 2023 - 15:04:49 */
 
 
 var imms = document.createElement("script");
@@ -25,37 +25,7 @@ document.querySelector("#obsahClanekMinHeight").insertAdjacentElement("beforeend
 //setTimeout(function(){
 console.log("call Impressionmedia push");
 Impressionmedia.events.push(function() {Impressionmedia.DisplayAcceptableAdIfAdblocked({"zoneid": 1406721,"containerid": "crt-1406721-ireferatycz","overrideZoneFloor": false,"callbacksuccess": function(){console.log("antiAdBlock callbacksuccess");
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
         document.querySelector('#crt-1406721-ireferatycz').style.height = "210px";
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
     ;},"callIfNotAdBlocked":function(){console.log("antiAdBlock callIfNotAdBlocked")}, });});;
 //}, 5000);
 }
@@ -70,52 +40,7 @@ document.querySelector("#hlavicka").insertAdjacentElement("afterend", div);
 //setTimeout(function(){
 console.log("call Impressionmedia push");
 Impressionmedia.events.push(function() {Impressionmedia.DisplayAcceptableAdIfAdblocked({"zoneid": 1406726,"containerid": "crt-1406726-ireferatycz","overrideZoneFloor": false,"callbacksuccess": function(){console.log("antiAdBlock callbacksuccess");
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
         document.querySelector('#crt-1406726-ireferatycz').style.height = "260px";
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
     ;},"callIfNotAdBlocked":function(){console.log("antiAdBlock callIfNotAdBlocked")}, });});;
 //}, 5000);
 }
