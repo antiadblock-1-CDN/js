@@ -136,8 +136,8 @@ function imWaitForOnEvent(){
 
                     //dotaz na cenu
                     data.ad = JSON.parse(sasAllAd).toString();
-                    data.cpm = 1.30;
-                    data.originalCpm = 1.30;
+                    data.cpm = 1.09;
+                    data.originalCpm = 1.09;
                     console.log('adform-sas bidAdjustment adform_leaderboard^^');
                     console.log(data);
                     
@@ -279,8 +279,8 @@ function imWaitForOnEvent(){
 
                     //dotaz na cenu
                     data.ad = JSON.parse(sasAllAd).toString();
-                    data.cpm = 1.30;
-                    data.originalCpm = 1.30;
+                    data.cpm = 1.09;
+                    data.originalCpm = 1.09;
                     console.log('adform-sas bidAdjustment adform_square^^');
                     console.log(data);
                     
@@ -340,8 +340,8 @@ function imWaitForOnEvent(){
 
                     //dotaz na cenu
                     data.ad = JSON.parse(sasAllAd).toString();
-                    data.cpm = 1.30;
-                    data.originalCpm = 1.30;
+                    data.cpm = 1.09;
+                    data.originalCpm = 1.09;
                     console.log('adform-sas bidAdjustment adform_rectangle^^');
                     console.log(data);
                     
