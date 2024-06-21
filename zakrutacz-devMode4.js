@@ -1,4 +1,4 @@
-/* Version: A_01 - 07.06. 2024 - 13:38:13 */
+/* Version: A_01 - 21.06. 2024 - 15:46:53 */
 
 
 var sasImHbMbIsMobile = {
@@ -99,13 +99,14 @@ function imWaitForOnEvent(){
               console.log('data.bidderCode: '+data.bidderCode+' - sasVirtBids: '+sasVirtBids.includes(data.requestId));
 
               var checkId60 = true;
-              if(1 == 0){
+              var checkDivIdSetting60 = 1;    
+              if(1 == checkDivIdSetting60){
                   var selection = document.querySelector('#adform_leaderboard') !== null;
-                  console.log('adform_leaderboard: '+selection);
+                  console.log('selection adUnitCode: adform_leaderboard:: '+selection);
                   if(selection){console.log('check DIV ID OK');
                   }else{
                       console.log('check DIV ID KO');
-                      console.log('checkDivId: 0');
+                      console.log('checkDivId: 1');
                       var checkId60 = false;
                   }
               }else{
@@ -160,13 +161,14 @@ function imWaitForOnEvent(){
               console.log('data.bidderCode: '+data.bidderCode+' - sasVirtBids: '+sasVirtBids.includes(data.requestId));
 
               var checkId61 = true;
-              if(1 == 0){
+              var checkDivIdSetting61 = 1;    
+              if(1 == checkDivIdSetting61){
                   var selection = document.querySelector('#adform_leaderboard') !== null;
-                  console.log('adform_leaderboard: '+selection);
+                  console.log('selection adUnitCode: adform_leaderboard:: '+selection);
                   if(selection){console.log('check DIV ID OK');
                   }else{
                       console.log('check DIV ID KO');
-                      console.log('checkDivId: 0');
+                      console.log('checkDivId: 1');
                       var checkId61 = false;
                   }
               }else{
@@ -242,13 +244,14 @@ function imWaitForOnEvent(){
               console.log('data.bidderCode: '+data.bidderCode+' - sasVirtBids: '+sasVirtBids.includes(data.requestId));
 
               var checkId62 = true;
-              if(1 == 0){
+              var checkDivIdSetting62 = 1;    
+              if(1 == checkDivIdSetting62){
                   var selection = document.querySelector('#adform_square') !== null;
-                  console.log('adform_square: '+selection);
+                  console.log('selection adUnitCode: adform_square:: '+selection);
                   if(selection){console.log('check DIV ID OK');
                   }else{
                       console.log('check DIV ID KO');
-                      console.log('checkDivId: 0');
+                      console.log('checkDivId: 1');
                       var checkId62 = false;
                   }
               }else{
@@ -303,13 +306,14 @@ function imWaitForOnEvent(){
               console.log('data.bidderCode: '+data.bidderCode+' - sasVirtBids: '+sasVirtBids.includes(data.requestId));
 
               var checkId63 = true;
-              if(1 == 0){
+              var checkDivIdSetting63 = 1;    
+              if(1 == checkDivIdSetting63){
                   var selection = document.querySelector('#adform_rectangle') !== null;
-                  console.log('adform_rectangle: '+selection);
+                  console.log('selection adUnitCode: adform_rectangle:: '+selection);
                   if(selection){console.log('check DIV ID OK');
                   }else{
                       console.log('check DIV ID KO');
-                      console.log('checkDivId: 0');
+                      console.log('checkDivId: 1');
                       var checkId63 = false;
                   }
               }else{
@@ -482,4 +486,3 @@ function sasRequest(device, s1, s3, s4){
 //    }
 
 }
-
